@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/txtBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="txtDetect"
+        android:layout_centerVertical="true"
+        android:layout_above="@+id/faceBtn"/>
+
+    <Button
+        android:id="@+id/faceBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/txtBtn"
+        android:text="Face"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/imgLblBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/faceBtn"
+        android:text="Image Labeling"
+        android:layout_centerVertical="true"
+        android:layout_above="@+id/faceBtn"/>
+
+    <Button
+        android:id="@+id/barcodeBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/imgLblBtn"
+        android:text="QR"
+        android:layout_centerVertical="true"/>
+
+
+</RelativeLayout>
